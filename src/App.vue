@@ -1,11 +1,23 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
 </template>
 
+
+<script>
+  import '@/assets/css/style.css'
+  import '@/assets/css/style-ltr.scss'
+  export default {
+  components: {
+  },
+  mounted(){
+    if (localStorage.getItem("locale") == "en") {
+      document.querySelector("body").classList.add("ltr");
+    } else {
+      document.querySelector("body").classList.remove("ltr");
+    }
+  }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
