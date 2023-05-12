@@ -1,5 +1,40 @@
 {
     "nav":{
-        "name" : "Ahme"
+        "Home" : "Home",
+        "Contact" : "Contact",
+        "Plans" : "Plans",
+        "About" : "About",
+        "Services" : "Services",
+        "joinUs" : "Join Us",
+        "getStart" : "Get started",
+        "emplyee" : "Employee With WAKKT",
+        "easy" : "Easily Manage Your",
+        "lorem" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor nobis consequatur iusto cumque quo animi necessitatibus asperiores obcaecati ipsum? Praesentium assumenda repellat."
+    },
+    "common" : {
+        "join" : "Join over +1000 companies that trust",
+        "wakkt" : "WAKKT",
+        "productivity" : "Productivity",
+        "trust" : "95% increase in planning quality",
+        "whyWakkt" : "why to choose WAKKT",
+        "wellIntegrated" : "Well Integrated",
+        "bestChoice" : "Your Best Choice",
+        "smallLorem" : "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "statistics" : "WAKKT STATISTICS",
+        "rates" : "Rates",
+        "happyClients" : "Happy Client" ,
+        "awards" : "Awards",
+        "activeInst" : "Active Installation",
+        "appGoogle" : "on app store and google play",
+        "avilable" : "WAAKT is available free",
+        "downloadApp" : "Download Our App",
+        "more" : "More",
+        "choosePlan" : "Choose Plan",
+        "year" : "Yearly",
+        "month" : "Monthly",
+        "simple" : "Simple Pricing For Everyone",
+        "prem" : "Premium",
+        "sliver" : "Silver",
+        "gold" : "Gold"
     }
 }

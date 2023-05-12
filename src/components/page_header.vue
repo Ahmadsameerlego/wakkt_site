@@ -4,14 +4,14 @@
       <div class="header mb-4">
         <img class="logo-img" :src="require('../assets/imgs/Vector (1).png')" alt="" />
         <ul class="links">
-          <li><a href="#"> {{ $t('nav.name') }} </a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Plans</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a > {{ $t('nav.Home') }} </a></li>
+          <li><a href="#services"> {{ $t('nav.Services') }} </a></li>
+          <li><a href="#"> {{ $t('nav.About') }} </a></li>
+          <li><a href="#"> {{ $t('nav.Plans') }} </a></li>
+          <li><a href="#"> {{ $t('nav.Contact') }} </a></li>
         </ul>
         <div class="auth-btns">
-          <a href="#" class="main-btn up">Join Us</a>
+          <a href="#" class="main-btn up"> {{ $t('nav.joinUs') }} </a>
           <div class="drop-doen-lang-btn">
             <img :src="require('../assets/imgs/lang.png')" alt="lang" />
             <div class="lang-text">En</div>
@@ -26,14 +26,12 @@
       <div class="land-info">
         <div class="row align-items-center">
           <div class="col-md-6 col-12 mb-3">
-            <h2 class="mb-2 arrow-img">Easily Manage Your</h2>
-            <h2 class="mb-3 color-main tl">Employee With WAKKT</h2>
+            <h2 class="mb-2 arrow-img"> {{ $t('nav.easy') }} </h2>
+            <h2 class="mb-3 color-main tl"> {{ $t('nav.emplyee') }} </h2>
             <p class="land-p tl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              dolor nobis consequatur iusto cumque quo animi necessitatibus
-              asperiores obcaecati ipsum? Praesentium assumenda repellat.
+              {{ $t('nav.lorem') }}
             </p>
-            <a href="" class="main-btn up">Get started</a>
+            <a href="" class="main-btn up"> {{ $t('nav.getStart') }} </a>
           </div>
           <div class="col-md-6 col-12">
             <div class="app-phone">
@@ -57,6 +55,9 @@
 <script>
 export default {
     methods:{
+        scrollTOServices(){
+          this.$refs.services.scrollIntoView({ behavior: 'smooth' });
+        },
         // change language and local 
         setArabic(){
             localStorage.setItem("locale", 'ar');

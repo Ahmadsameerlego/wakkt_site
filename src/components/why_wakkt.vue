@@ -1,12 +1,10 @@
 <template>
   <!--start why-us section-->
-    <div class="container">
+    <div class="container" id="services">
       <div class="why-us section-pad">
-        <h2 class="text-center mb-3">why to choose WAKKT</h2>
+        <h2 class="text-center mb-3"> {{ $t('common.whyWakkt') }} </h2>
         <p class="main-p text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-          accusantium omnis laborum fuga est sit obcaecati, harum pariatur
-          praesentium labore.
+          {{ $t('nav.lorem') }}
         </p>
         <div class="col-md-10 col-12 margin-auto">
           <div class="row mt-4 mb-5">
@@ -19,15 +17,12 @@
                   <img class="abs-img" :src="require('../assets/imgs/Group 82986.png')" alt="" />
                 </div>
                 <div class="down-card">
-                  <div class="gray-col mb-3">Productivity</div>
+                  <div class="gray-col mb-3"> {{ $t('common.productivity') }} </div>
                   <div class=" percage mb-3">
-                    95% increase in planning quality
+                    {{ $t('common.trust') }}
                   </div>
                   <p class="gray-col shown-p">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    nihil architecto quod doloremque laborum quae unde itaque
-                    omnis.
-             
+                    {{ $t('nav.lorem') }}
 
                   </p>
                 </div>
@@ -42,15 +37,12 @@
                   <img class="abs-img" :src="require('../assets/imgs/Group 82986.png')" alt="" />
                 </div>
                 <div class="down-card">
-                  <div class="gray-col mb-3">Productivity</div>
+                  <div class="gray-col mb-3"> {{ $t('common.productivity') }}</div>
                   <div class=" percage mb-3">
-                    95% increase in planning quality
+                    {{ $t('common.trust') }}
                   </div>
                   <p class="gray-col shown-p">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    nihil architecto quod doloremque laborum quae unde itaque
-                    omnis.
-             
+                    {{ $t('nav.lorem') }}
 
                   </p>
                 </div>
@@ -65,14 +57,12 @@
                   <img class="abs-img" :src="require('../assets/imgs/Group 82986.png')" alt="" />
                 </div>
                 <div class="down-card">
-                  <div class="gray-col mb-3">Productivity</div>
+                  <div class="gray-col mb-3"> {{ $t('common.productivity') }}</div>
                   <div class=" percage mb-3">
-                    95% increase in planning quality
+                    {{ $t('common.trust') }}
                   </div>
                   <p class="gray-col shown-p">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    nihil architecto quod doloremque laborum quae unde itaque
-                    omnis.
+                    {{ $t('nav.lorem') }}
              
 
                   </p>
